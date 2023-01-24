@@ -3,6 +3,7 @@
 :root {
   --primary-color: #30314b;
   --secondary-color: #918ae3;
+  --secondary-hover-color: #5d55b2;
   --tertiary-color: #d1e9f3;
   --white: #ffffff;
 }

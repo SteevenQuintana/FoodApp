@@ -14,7 +14,7 @@
 
 .button:hover,
 .button:active {
-  background-color: #5d55b2;
+  background-color: var(--secondary-hover-color);
 }
 
 .icon {
@@ -24,7 +24,7 @@
 }
 
 .badge {
-  background-color: #5d55b2;
+  background-color: var(--secondary-hover-color);
   padding: 0.25rem 0.75rem;
   border-radius: 15px;
   margin-left: 1rem;
