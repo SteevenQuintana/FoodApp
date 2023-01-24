@@ -14,7 +14,7 @@ const CartProvider = (props) => {
     dispatchCart({ type: "ADD", item });
   };
 
-  const removeItems = (id) => {
+  const removeItem = (id) => {
     dispatchCart({ type: "REMOVE", id });
   };
 
@@ -22,7 +22,7 @@ const CartProvider = (props) => {
     items: cartState.items,
     totalAmount: cartState.totalAmount,
     addItems,
-    removeItems,
+    removeItem,
   };
 
   return (

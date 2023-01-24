@@ -17,12 +17,7 @@ function App() {
 
   return (
     <CartProvider>
-      {cartIsShow && (
-        <Cart
-          cartItems={[{ id: "2", name: "example" }]}
-          onClose={hideCartHandler}
-        />
-      )}
+      {cartIsShow && <Cart onClose={hideCartHandler} />}
       <Header onCartClick={showCartHandler} />
       <main>
         <Meals />

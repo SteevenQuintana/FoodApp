@@ -31,8 +31,8 @@ const DUMMY_MEALS = [
 ];
 
 const AvailableMeals = () => {
-  const mealsList = DUMMY_MEALS.map((meal) => (
-    <MealItem key={meal.id} meal={meal} />
+  const mealsList = DUMMY_MEALS.map((meal, i) => (
+    <MealItem key={`${meal.id} ${i}`} meal={meal} />
   ));
   return (
     <section className={styles.meals}>
